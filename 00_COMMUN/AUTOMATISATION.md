@@ -36,26 +36,28 @@ Si vous souhaitez malgré tout aller dans cette direction, c'est une décision q
 vous appartient — mais elle doit être prise en connaissance de cause, pas comme
 un simple réglage technique, et je vous le signalerais à nouveau.
 
-## 3. Le sujet dépasse la technique
+## 3. Le sujet dépasse la technique — et la recherche l'a confirmé
 
-Trois questions se posent avant toute automatisation, et leurs réponses
-conditionnent l'ensemble du projet :
+Une recherche vérifiée (quatre angles, réfutation adversariale) a été menée le
+2026-09-18. Conclusions détaillées et réserves dans **`00_COMMUN/CONFORMITE.md`**.
+En résumé :
 
-- **Conditions d'utilisation de Doctolib** sur l'accès automatisé et l'usage de
-  la messagerie professionnelle à des fins de prospection.
-- **Déontologie médicale** : où passe la frontière entre information
-  confraternelle licite et démarchage prohibé, pour un plateau technique qui
-  sollicite des correspondants.
-- **RGPD et conditions de réutilisation du RPPS** : l'extraction de l'Annuaire
-  Santé est en libre accès, ce qui ne signifie pas automatiquement « réutilisable
-  pour de la prospection ». Le fichier contient des données personnelles de
-  personnes physiques, même dans un cadre professionnel.
+- **Aucune voie officielle d'automatisation n'existe** *(fiabilité : solide)*.
+  L'API Doctolib est fermée et ne couvre pas la messagerie entre praticiens ; la
+  seule API Connect identifiée est du provisionnement d'utilisateurs. Les
+  prestataires qui vendent de l'« automatisation Doctolib » reconnaissent
+  eux-mêmes passer par du scraping. Automatiser signifierait donc contourner,
+  pas intégrer.
+- **Doctolib documente une détection de l'« utilisation robotisée non
+  autorisée »**, avec suspension ou résiliation possible du compte. Le risque
+  n'est pas théorique : c'est votre compte professionnel.
+- **Deux questions peuvent remettre en cause la campagne entière**, bien avant
+  celle de l'automatisation — la forme juridique du centre, et la licéité du
+  démarchage confraternel lui-même. Voir `CONFORMITE.md`.
 
-> *Section en cours de documentation : une recherche vérifiée est en cours sur
-> ces trois points et sur l'existence éventuelle d'une API officielle Doctolib.
-> Les conclusions seront ajoutées ici.*
-
----
+Autrement dit : « non, on ne peut pas automatiser » est exact, mais insuffisant.
+La licéité de la démarche doit être établie **même pour un envoi entièrement
+manuel**.
 
 ## Ce qui est automatisé à la place
 

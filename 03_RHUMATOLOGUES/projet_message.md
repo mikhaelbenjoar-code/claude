@@ -4,6 +4,16 @@
 Référence de version : `RHUM-v0-projet`
 Canal : messagerie professionnelle Doctolib Connect uniquement.
 
+> ## ⚠️ À lire avant d'arbitrer ce texte
+>
+> Une recherche du 2026-09-18 a fait apparaître quatre vérifications à obtenir
+> **par écrit avant tout envoi**, dont deux peuvent remettre en cause la campagne
+> entière : la forme juridique du centre (un « centre de santé » au sens de
+> L.6323-1 CSP ne peut faire l'objet d'**aucune** publicité), et les conditions
+> de réutilisation du RPPS et des CGU Doctolib Connect.
+>
+> **Lire `00_COMMUN/CONFORMITE.md` avant de valider ce texte.**
+
 ---
 
 ## 1. Éléments à arbitrer par le Dr Benjoar
@@ -19,6 +29,7 @@ Canal : messagerie professionnelle Doctolib Connect uniquement.
 | R7 | Arthro-scanner / arthro-IRM | ⚠️ **NON VÉRIFIÉ** | ☐ à citer ☐ à retirer |
 | R8 | Radiographies du rachis en charge / mesures d'axes | ⚠️ **NON VÉRIFIÉ** | ☐ à citer ☐ à retirer |
 | R9 | Délai de rendez-vous à annoncer | ⚠️ **NON VÉRIFIÉ** | délai réel : ____________ ou ☐ ne rien annoncer |
+| RGPD | **Mentions RGPD obligatoires** en pied de message : origine des données (RPPS), droit d'opposition simple et gratuit, identification de l'émetteur | ⚠️ **obligatoire** — voir `00_COMMUN/CONFORMITE.md` | ☐ valider le pied de message ci-dessous |
 | R10 | Canal de contact confraternel | ⚠️ **NON VÉRIFIÉ** | précisez : ____________ |
 | R11 | Signature | ⚠️ à préciser | précisez : ____________ |
 
@@ -55,6 +66,13 @@ Plusieurs de nos équipements concernent directement la pratique rhumatologique 
 Si vous souhaitez adresser un patient ou échanger sur une indication, nous
 restons à votre disposition [R10 : canal de contact].
 
+---
+Vous recevez ce message en qualité de professionnel de santé. Vos coordonnées
+professionnelles proviennent de l'Annuaire Santé (RPPS), publié en libre accès
+par l'Agence du Numérique en Santé. Pour ne plus recevoir de message de notre
+part, répondez « STOP » à ce message : votre demande sera enregistrée de façon
+définitive. [RGPD-1 : identification de l'émetteur et du responsable de traitement]
+
 Bien confraternellement,
 [R11 : signature]
 ```
@@ -66,4 +84,5 @@ Bien confraternellement,
 - Envoi **uniquement** aux lignes classées `EXACT`.
 - Texte collé **en une seule fois, en texte brut**.
 - Ouvrir la conversation et lire l'historique **avant** chaque envoi.
+- Le pied de message RGPD est **obligatoire** et ne peut pas être retiré.
 - Toute modification substantielle impose une **nouvelle validation**.

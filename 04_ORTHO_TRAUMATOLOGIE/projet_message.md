@@ -4,6 +4,16 @@
 Référence de version : `ORTHO-v0-projet`
 Canal : messagerie professionnelle Doctolib Connect uniquement.
 
+> ## ⚠️ À lire avant d'arbitrer ce texte
+>
+> Une recherche du 2026-09-18 a fait apparaître quatre vérifications à obtenir
+> **par écrit avant tout envoi**, dont deux peuvent remettre en cause la campagne
+> entière : la forme juridique du centre (un « centre de santé » au sens de
+> L.6323-1 CSP ne peut faire l'objet d'**aucune** publicité), et les conditions
+> de réutilisation du RPPS et des CGU Doctolib Connect.
+>
+> **Lire `00_COMMUN/CONFORMITE.md` avant de valider ce texte.**
+
 ---
 
 ## 1. Éléments à arbitrer par le Dr Benjoar
@@ -20,6 +30,7 @@ Canal : messagerie professionnelle Doctolib Connect uniquement.
 | T8 | Bilans pré-opératoires, mesures d'axes, planification | ⚠️ **NON VÉRIFIÉ** | ☐ à citer ☐ à retirer |
 | T9 | Imagerie du matériel d'ostéosynthèse / prothèses (réduction d'artéfacts) | ⚠️ **NON VÉRIFIÉ** | ☐ à citer ☐ à retirer |
 | T10 | Prise en charge rapide en traumatologie / créneaux dédiés | ⚠️ **NON VÉRIFIÉ** | ☐ confirmer, délai réel : ____________ ☐ retirer |
+| RGPD | **Mentions RGPD obligatoires** en pied de message : origine des données (RPPS), droit d'opposition simple et gratuit, identification de l'émetteur | ⚠️ **obligatoire** — voir `00_COMMUN/CONFORMITE.md` | ☐ valider le pied de message ci-dessous |
 | T11 | Modalités de transmission des images (PACS, lien, CD) | ⚠️ **NON VÉRIFIÉ** | précisez : ____________ |
 | T12 | Canal de contact confraternel | ⚠️ **NON VÉRIFIÉ** | précisez : ____________ |
 | T13 | Signature | ⚠️ à préciser | précisez : ____________ |
@@ -61,6 +72,13 @@ traumatologie :
 Si vous souhaitez adresser un patient ou préparer un bilan pré-opératoire,
 nous restons à votre disposition [T12 : canal de contact].
 
+---
+Vous recevez ce message en qualité de professionnel de santé. Vos coordonnées
+professionnelles proviennent de l'Annuaire Santé (RPPS), publié en libre accès
+par l'Agence du Numérique en Santé. Pour ne plus recevoir de message de notre
+part, répondez « STOP » à ce message : votre demande sera enregistrée de façon
+définitive. [RGPD-1 : identification de l'émetteur et du responsable de traitement]
+
 Bien confraternellement,
 [T13 : signature]
 ```
@@ -75,4 +93,5 @@ Bien confraternellement,
 - Attention aux chirurgiens exerçant aussi en rhumatologie interventionnelle ou
   présents dans plusieurs listes : le garde-fou anti-doublon est global, mais la
   relecture de l'historique reste obligatoire.
+- Le pied de message RGPD est **obligatoire** et ne peut pas être retiré.
 - Toute modification substantielle impose une **nouvelle validation**.

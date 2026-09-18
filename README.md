@@ -22,6 +22,8 @@ rhumatologues ; chirurgiens orthopédistes et traumatologues.
 ```
 00_COMMUN/           référentiels partagés par les quatre campagnes
   BLOCAGES.md                        ← à lire en premier
+  CONFORMITE.md                      ← 4 vérifications avant tout envoi
+  AUTOMATISATION.md                  pourquoi les envois ne sont pas automatisés
   ETAT_AVANCEMENT.md                 mémoire du projet, reprise sans perte
   socle_factuel_centre.md            ce qu'on a le droit d'écrire sur le centre
   referentiel_statuts.md             vocabulaire fermé des statuts Connect
@@ -69,7 +71,10 @@ python3 outils/04_preparer_envois.py --campagne 03_RHUMATOLOGUES --version RHUM-
 python3 outils/05_consigner_envois.py --campagne 03_RHUMATOLOGUES --version RHUM-v1 \
     --feuille 03_RHUMATOLOGUES/envois_a_effectuer_RHUM-v1/_feuille_de_confirmation.csv
 
-# 6. Vérifier les garde-fous et l'intégrité des journaux
+# 6. Enregistrer une opposition (« STOP ») — écarte de TOUTES les campagnes
+python3 outils/06_opposition.py --rpps ... --nom ... --prenom ... --motif "..."
+
+# 7. Vérifier les garde-fous et l'intégrité des journaux
 python3 outils/test_journal.py
 python3 outils/journal.py
 ```

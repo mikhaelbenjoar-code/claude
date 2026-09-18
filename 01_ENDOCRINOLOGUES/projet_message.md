@@ -4,6 +4,16 @@
 Référence de version : `ENDO-v0-projet`
 Canal : messagerie professionnelle Doctolib Connect uniquement.
 
+> ## ⚠️ À lire avant d'arbitrer ce texte
+>
+> Une recherche du 2026-09-18 a fait apparaître quatre vérifications à obtenir
+> **par écrit avant tout envoi**, dont deux peuvent remettre en cause la campagne
+> entière : la forme juridique du centre (un « centre de santé » au sens de
+> L.6323-1 CSP ne peut faire l'objet d'**aucune** publicité), et les conditions
+> de réutilisation du RPPS et des CGU Doctolib Connect.
+>
+> **Lire `00_COMMUN/CONFORMITE.md` avant de valider ce texte.**
+
 ---
 
 ## 1. Éléments à arbitrer par le Dr Benjoar
@@ -19,6 +29,7 @@ corriger ou supprimer**. Rien ne sera envoyé avant votre retour écrit.
 | E4 | Cytoponction thyroïdienne échoguidée | ⚠️ **NON VÉRIFIÉ** | ☐ nous le faisons ☐ nous ne le faisons pas |
 | E5 | IRM hypophysaire / exploration surrénalienne | ⚠️ **NON VÉRIFIÉ** | ☐ à citer ☐ à retirer |
 | E6 | Délai de rendez-vous à annoncer | ⚠️ **NON VÉRIFIÉ** | délai réel : ____________ ou ☐ ne rien annoncer |
+| RGPD | **Mentions RGPD obligatoires** en pied de message : origine des données (RPPS), droit d'opposition simple et gratuit, identification de l'émetteur | ⚠️ **obligatoire** — voir `00_COMMUN/CONFORMITE.md` | ☐ valider le pied de message ci-dessous |
 | E7 | Canal de contact confraternel (ligne directe ? e-mail ? Connect ?) | ⚠️ **NON VÉRIFIÉ** | précisez : ____________ |
 | E8 | Signature (nom, qualité) | ⚠️ à préciser | précisez : ____________ |
 
@@ -54,6 +65,13 @@ endocrinologie :
 Si vous souhaitez adresser un patient ou échanger sur un dossier, nous restons
 à votre disposition [E7 : canal de contact].
 
+---
+Vous recevez ce message en qualité de professionnel de santé. Vos coordonnées
+professionnelles proviennent de l'Annuaire Santé (RPPS), publié en libre accès
+par l'Agence du Numérique en Santé. Pour ne plus recevoir de message de notre
+part, répondez « STOP » à ce message : votre demande sera enregistrée de façon
+définitive. [RGPD-1 : identification de l'émetteur et du responsable de traitement]
+
 Bien confraternellement,
 [E8 : signature]
 ```
@@ -66,5 +84,6 @@ Bien confraternellement,
 - Texte collé **en une seule fois, en texte brut** (jamais caractère par
   caractère : les retours à la ligne partiraient en messages séparés).
 - Ouvrir la conversation et lire l'historique **avant** chaque envoi.
+- Le pied de message RGPD est **obligatoire** et ne peut pas être retiré.
 - Toute modification substantielle après validation impose une **nouvelle
   validation** et un nouveau numéro de version.

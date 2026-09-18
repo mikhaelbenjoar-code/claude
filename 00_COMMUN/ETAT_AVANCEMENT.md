@@ -16,7 +16,8 @@ rien perdre et sans dépendre de l'historique de la conversation.
 | 3. Déduplication RPPS + regroupement des lieux | **Prêt, non exécuté** | Implémenté et validé sur jeu d'essai. Attend les données. |
 | 4. Vérification Doctolib Connect | **Bloqué** | Aucun accès au compte. Aucune recherche effectuée, aucun « cas patient » créé. |
 | 5. Classement par statut | Prêt | Référentiel fermé, liste déroulante dans Excel. |
-| 6. Projets de message | **Fait — en attente de validation** | 4 projets rédigés, à corriger et valider par le Dr Benjoar. |
+| 6. Projets de message | **Fait — en attente de validation** | 4 projets rédigés, mentions RGPD obligatoires intégrées, à corriger et valider. |
+| 6 bis. Conformité | **Fait — 4 vérifications ouvertes** | Voir ci-dessous et `CONFORMITE.md`. |
 | 7. Envois | **Aucun** | 0 message envoyé. Verrouillé tant que les textes ne sont pas validés. |
 
 ---
@@ -34,6 +35,23 @@ Tous les zéros s'expliquent par les blocages d'accès, **pas** par une absence 
 professionnels. Chiffres recalculés par `python3 outils/02_bilan.py`.
 
 ---
+
+## Vérifications de conformité — préalables à tout envoi
+
+Issues de la recherche du 2026-09-18 (`00_COMMUN/CONFORMITE.md`). Les deux
+premières peuvent remettre en cause la campagne entière.
+
+| # | À vérifier | Auprès de qui | État |
+|---|---|---|---|
+| C1 | Le centre est-il un « centre de santé » au sens de L.6323-1 CSP ? Si oui, L.6323-1-9 interdit toute publicité. | vous / votre conseil | **ouvert** |
+| C2 | La Charte de réutilisation RPPS admet-elle la prospection confraternelle ? | support ANS | **ouvert** |
+| C3 | Les CGU Doctolib Connect autorisent-elles une prise de contact non sollicitée via l'annuaire, même manuelle ? | Doctolib | **ouvert** |
+| C4 | Position ordinale sur un courrier de présentation de plateau technique. | conseil départemental de l'Ordre | **ouvert** |
+
+À noter : l'extraction RPPS en libre accès **ne contient aucune coordonnée de
+contact personnelle** — seulement l'identité, les qualifications et les
+coordonnées de structure. Elle permet d'identifier les correspondants, pas de les
+joindre. C'est pourquoi C3 est structurant.
 
 ## Décisions attendues du Dr Benjoar
 
