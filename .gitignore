@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Extractions RPPS : volumineuses et rafraîchies quotidiennement, jamais versionnées
+donnees_source/*
+!donnees_source/.gitkeep
