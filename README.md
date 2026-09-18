@@ -33,6 +33,7 @@ rhumatologues ; chirurgiens orthopédistes et traumatologues.
 01_ENDOCRINOLOGUES/  02_ORL_CHIR_CERVICO_FACIALE/
 03_RHUMATOLOGUES/    04_ORTHO_TRAUMATOLOGIE/
   base_rpps_*.xlsx                   base consolidée + statut Connect
+  envois_a_effectuer_<version>/      carnet d'envoi prêt au collage (après validation)
   suivi_connect_*.csv                suivi des recherches
   ambiguites_a_verifier.csv          cas à trancher par un humain
   bilan_chiffre.md                   bilan de la campagne
@@ -61,7 +62,14 @@ python3 outils/03_valider_modele.py --enregistrer --campagne 03_RHUMATOLOGUES \
     --version RHUM-v1 --fichier 00_COMMUN/modeles/RHUM-v1.txt \
     --preuve "validation écrite du ..."
 
-# 4. Vérifier les garde-fous et l'intégrité des journaux
+# 4. Préparer les envois (après validation) — ne se connecte à rien, n'envoie rien
+python3 outils/04_preparer_envois.py --campagne 03_RHUMATOLOGUES --version RHUM-v1
+
+# 5. Reverser les envois réellement confirmés dans le journal immuable
+python3 outils/05_consigner_envois.py --campagne 03_RHUMATOLOGUES --version RHUM-v1 \
+    --feuille 03_RHUMATOLOGUES/envois_a_effectuer_RHUM-v1/_feuille_de_confirmation.csv
+
+# 6. Vérifier les garde-fous et l'intégrité des journaux
 python3 outils/test_journal.py
 python3 outils/journal.py
 ```
@@ -82,6 +90,19 @@ remplie :
 Le journal des envois est chaîné par empreinte : toute réécriture a posteriori
 est détectée. Modifier un modèle plus tard ne réécrit jamais l'historique des
 textes déjà envoyés.
+
+## Ce qui est automatisé, et ce qui ne peut pas l'être
+
+Il n'existe **aucune connexion automatisée à Doctolib** dans ce projet, et c'est
+délibéré autant que subi (voir `00_COMMUN/BLOCAGES.md` et
+`00_COMMUN/AUTOMATISATION.md`).
+
+Automatisé : sélection des destinataires autorisés, verrouillage sur le texte
+exactement validé, production d'un fichier texte brut par destinataire prêt au
+collage en une seule opération, anti-doublon global, journalisation chaînée.
+
+Laissé à l'humain, volontairement : ouvrir la conversation et lire l'historique,
+coller et envoyer, lire ce que l'interface affiche réellement.
 
 ## Règles permanentes
 
